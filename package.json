@@ -6,7 +6,6 @@
   "license": "MIT",
   "types": "./types/index.d.ts",
   "scripts": {
-    "prepare": "husky install",
     "build": "tsc",
     "lint": "npm run lint:android && npm run lint:ios && npm run lint:typescript",
     "lint:android": "ktlint src/android",
